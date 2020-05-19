@@ -4,13 +4,14 @@ end
 
 def create_an_array
 create_an_array = ["cream", "sugar", "coffee," "ice"]
+puts create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
 add_element_to_end_of_array = ["Hello, "hi", "yes"]
 add_element_to_end_of_array << "Beautiful"
 puts add_element_to_end_of_array.inspect
-puts 
+puts
 end
 
 def add_element_to_start_of_array(array, element)
